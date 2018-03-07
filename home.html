@@ -5,19 +5,40 @@
   <meta name="description" content="A simple personal website">
   <meta name="author" content="Cian O'Siorain">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <!--Cian O'Siorain Website Logo-->
-  <section class="Logo"><img src="cianLogo.jpg" alt="Cian Logo"></img></section>
+  <!--NEW SECTION-->
+  <section class="Header">
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-8" style="background-color:red">
+        <div class="row">
+          <div class="col-4"><img src="cianLogo.jpg" class="img-fluid rounded-circle" alt="Cian Logo"></img></div>
+          <div class="col-8">Cian O'Síoráin : <br><div id="title details">Web developer<br>App designer<br>Giant robot enthusiast</div></div>
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+  </section>
+<!--OLD SECTION-->
+  <div class="class="col-8"">Cian O'Síoráin : <br><div id="title details">Web developer<br>App designer<br>Giant robot enthusiast</div><img src="cianLogo.jpg" class="img-fluid" alt="Cian Logo"></img></div>
   <header>
-    <section class="homeMain"><div>A web developer for the changing webscape</div>
-      <nav>
+    <div class="container"><div>A web developer for the changing webscape</div>
       <ul>
         <li><a href="" id="homeNav">Home</a></li>
         <li><a href="" id="projectsNav">Projects</a></li>
         <li><a href="" id="contactNav">Contact</a></li>
-      </ul></nav>
-    </section>
+      </ul>
+    </div>
     <section class="Main">
       <!-- In here we will generate the context data depending on what segment is showing-->
       <!--
@@ -36,7 +57,11 @@
     </section>
 
     <section class="homeFooter">
-
+      <div>
+        Developed by Cian O'Síoráin<br>
+        Hosted on -------<br>
+        Current version 0.1
+      </div>
     </section>
 </body>
 </html>
