@@ -5,10 +5,11 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+@import "custom";
 @import "../../bower_components/bootstrap/scss/functions";
 @import "../../bower_components/bootstrap/scss/variables";
 @import "../../bower_components/bootstrap/scss/mixins";
-@import "custom";
+
 //print
 @import "../../bower_components/bootstrap/scss/print";
 @import "../../bower_components/bootstrap/scss/reboot";
