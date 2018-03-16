@@ -7,9 +7,28 @@
 //==========================
 $red:     #95031C;//Deep red
 $orange:  #B52705;//Orange red
-$yellow: #FFD71D;//Off yellow
-
+$yellow:  #FFD71D;//Off yellow
+//Black is darkest Grey
+$black:   #5E4837;
 //We need a colour name for Grey and Dark Grey
 //Test colours
 $gray-600: #C9B58D;//gray
-$gray-800: #5E4837;//gray-dark
+//$gray-800: #5E4837;//gray-dark Now black
+
+$theme-colors: (
+  primary: $red,
+  secondary: $black,
+  success: $yellow,
+  info: $orange,
+  warning: $yellow,
+  danger: $orange,
+  light: $gray-600,
+  dark: $black
+);
+
+$body-bg:       $black !default;
+$body-color:    $gray-600 !default;
+
+
+
+$enable-rounded:  false;
