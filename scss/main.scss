@@ -2,5 +2,9 @@
 @import 'abstracts/variables';
 
 //Bring in bootstrap
-
 @import 'vendor/bootstrap';
+
+//Bring in typekit Fonts
+@import url("https://use.typekit.net/bip2izi.css");
+
+@import 'components/navigation';
